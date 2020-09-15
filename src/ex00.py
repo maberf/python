@@ -1,1 +1,3 @@
-print ('Olá Dummie!')
+import sys
+print(sys.path)
+print('Olá Dummie!')
