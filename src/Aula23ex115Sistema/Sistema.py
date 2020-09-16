@@ -1,7 +1,7 @@
 # PROGRAMA PRINCIPAL DE SISTEMA
 #
-from lib.interface import *
-from lib.arquivo import *
+from libr.interface import cabecalho, menu, leiaInt
+from libr.arquivo import arquivoExiste, criarArquivo, lerArquivo, cadastrar
 from time import sleep
 
 arq = 'arqsistema.txt'
@@ -9,9 +9,9 @@ if not arquivoExiste(arq):
     criarArquivo(arq)
 
 while True:
-    resposta = menu(['Ver Cadastrados','Cadastrar Pessoa', 'Sair do Sistema'])
+    resposta = menu(['Ver Cadastrados', 'Cadastrar Pessoa', 'Sair do Sistema'])
     if resposta == 1:
-        #Opção de listar o conteúdo de um arquivo
+        # Opção de listar o conteúdo de um arquivo
         lerArquivo(arq)
     elif resposta == 2:
         # Opção de cadastrar uma nova pessoa
