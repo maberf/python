@@ -1,5 +1,5 @@
-#MEGA SENA
-#Sugere números de jogos
+# MEGA SENA
+# Sugere números de jogos
 from random import randint
 from time import sleep
 aposta = list()
@@ -16,7 +16,7 @@ for i in range(qtd):
         if num not in aposta:
             aposta.append(num)
             cont += 1
-        if cont >=6:
+        if cont >= 6:
             break
     aposta.sort()
     jogo.append(aposta[:])
@@ -24,4 +24,3 @@ for i in range(qtd):
     print(f'Jogo {i+1}: {jogo[i]}')
     sleep(1)
 print('         BOA SORTE!     ')
-
