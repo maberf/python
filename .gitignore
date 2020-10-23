@@ -105,8 +105,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-venvw/
-venvx/
 
 # Spyder project settings
 .spyderproject
@@ -125,3 +123,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# maberf personal exceptions
+# .vscode/
+venvw/
+venvx/
+*.db
