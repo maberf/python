@@ -125,7 +125,7 @@ dmypy.json
 .pyre/
 
 # maberf personal exceptions
-# .vscode/
+.vscode/
 venvw/
 venvx/
 *.db
