@@ -4,7 +4,7 @@ from libr.interface import cabecalho, menu, leiaInt
 from libr.arquivo import arquivoExiste, criarArquivo, lerArquivo, cadastrar
 from time import sleep
 
-arq = 'c:/Users/maber/DevProjects/python/src/Aula23ex115Sistema/sistema.txt'
+arq = '/home/maber/python/src/Aula23ex115Sistema/sistema.txt'
 if not arquivoExiste(arq):
     criarArquivo(arq)
 
