@@ -1,4 +1,4 @@
-#FATORIAL
+# FATORIAL
 #
 # Funções Iniciais
 #
